@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import ComponentCard from "../../common/ComponentCard";
 
 import { Modal } from "../../ui/modal";
 import Button from "../../ui/button/Button";
@@ -15,7 +14,6 @@ export default function DefaultModal() {
   };
   return (
     <div>
-      <ComponentCard title="Default Modal">
         <Button size="sm" onClick={openModal}>
           Open Modal
         </Button>
@@ -47,7 +45,6 @@ export default function DefaultModal() {
             </Button>
           </div>
         </Modal>
-      </ComponentCard>
     </div>
   );
 }

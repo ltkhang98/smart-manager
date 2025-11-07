@@ -47,10 +47,10 @@ const navItems: NavItem[] = [
     name: "Hồ sơ",
     icon: <TableIcon />,
     subItems: [
-      { name: "Danh sách nhân viên", path: "/basic-tables", pro: false },
+      { name: "Danh sách nhân viên", path: "/danh-sach-nhan-vien", pro: false },
       { name: "Danh sách giáo viên", path: "/basic-tables", pro: false },
       { name: "Danh sách phụ huynh", path: "/basic-tables", pro: false },
-      { name: "Danh sách học sinh", path: "/basic-tables", pro: false },
+      { name: "Danh sách học sinh", path: "/danh-sach-hoc-vien", pro: false },
     ]
   },
 ];
